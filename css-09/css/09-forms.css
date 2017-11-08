@@ -1,0 +1,56 @@
+/* PHASE 9: Forms */
+
+.thumb {
+  float: left;
+}
+
+.form-fieldset {
+  padding: 10px;
+  margin-left: 20px;
+  float: left;
+  border: 1px solid black;
+  background: lightgrey;
+  border-radius: 5px;
+}
+
+label {
+  margin: 12px;
+  font-weight: bold;
+
+}
+
+.cancel {
+  margin: 12px;
+  font-weight: bold;
+}
+
+.cancel:hover {
+  color: red;
+}
+
+.input {
+  display: inline-block;
+  border: 1px solid black;
+  background: white;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 12px;
+  padding: 12px;
+  width: 90%;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.submit {
+  background-color: limegreen;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  box-shadow: green 0px 3px;
+  margin: 12px;
+}
+
+.submit:hover {
+  background-color: #339933;
+}

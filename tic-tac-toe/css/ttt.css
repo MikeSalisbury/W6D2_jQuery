@@ -1,0 +1,54 @@
+.ttt {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  height: 1000px;
+  margin: auto;
+}
+
+.grid {
+  width: 648px;
+  height: 648px;
+}
+
+li {
+  width: 200px;
+  height: 200px;
+  border: 8px solid black;
+  list-style: none;
+  float: left;
+  background-color: lightblue;
+}
+
+li:hover {
+  background-color: purple;
+}
+
+h1 {
+  width: 1000px;
+  height: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+  font-family: sans-serif;
+}
+
+.x {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.x:after {
+  content: "X";
+}
+
+.o{
+  background-color: #00ffff;
+}
+
+.o:after {
+  content: "O";
+}
